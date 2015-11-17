@@ -1,6 +1,8 @@
 body {
+  position: relative;
   background-color: white;
   height: 100%;
+  width: 100%;
   border: .1em solid black; }
   body .head {
     height: 3em;
@@ -8,23 +10,29 @@ body {
   body .main {
     height: 385px;
     background-color: #ED462F; }
-  body .quad, body .quad .one, body .quad .two, body .quad .three {
-    overflow: hidden;
+  body .quad {
+    width: 100%;
     height: 225px;
-    background-color: #57140B;
-    border-top: 64px solid white;
-    margin-bottom: 32px solid white; }
-    body .quad .four {
-      overflow: hidden;
-      height: 225px;
-      background-color: #57140B;
-      border-top: 64px solid white;
-      margin-bottom: 32px; }
-  body .big {
-    overflow: hidden;
-    height: 900px;
-    margin-top: 17px;
     background-color: #57140B; }
+    body .quad .one {
+      width: 100%;
+      height: 225px;
+      background-color: #57140B; }
+    body .quad .two {
+      position: relative;
+      width: 100%;
+      height: 225px;
+      background-color: #57140B; }
+    body .quad .three {
+      position: relative;
+      width: 100%;
+      height: 225px;
+      background-color: #57140B; }
+    body .quad .four {
+      position: relative;
+      width: 100%;
+      height: 225px;
+      background-color: #57140B; }
   body .inside {
     height: 412px;
     background-color: #DA7F7C;
