@@ -1,4 +1,5 @@
 body{
+
 	background-color:white;
 	height:100%;
 	border:.1em solid black;
@@ -11,12 +12,14 @@ body{
 		background-color:#ED462F;
 	}
 	.quad{
+		overflow:hidden;
 		height:225px;
 		background-color:#57140B;
 		border-top:64px solid white;
-		border-bottom:32px solid white;
+		margin-bottom:32px solid white;
 		.one{
 			@extend .quad;
+
 		}
 		.two{
 			@extend .quad;
@@ -25,6 +28,7 @@ body{
 			@extend .quad;
 		}
 		.four{
+			overflow:hidden;
 			height:225px;
 			background-color:#57140B;
 			border-top:64px solid white;
@@ -33,8 +37,21 @@ body{
 
 	}
 	.big{
+		overflow:hidden;
 		height:900px;
 		margin-top:17px;
+		background-color:#57140B;
+	}
+	.inside{
+		height:412px;
+		 background-color:#DA7F7C;
+		 border-top:140px solid #ED462F;
+		 border-bottom:70px solid #ED462F;
+		 border-right:32px solid #ED462F;
+		 border-left:32px solid #ED462F;
+	}
+	.footer{
+		height:204px;
 		background-color:#57140B;
 	}
 }

@@ -9,16 +9,29 @@ body {
     height: 385px;
     background-color: #ED462F; }
   body .quad, body .quad .one, body .quad .two, body .quad .three {
+    overflow: hidden;
     height: 225px;
     background-color: #57140B;
     border-top: 64px solid white;
-    border-bottom: 32px solid white; }
+    margin-bottom: 32px solid white; }
     body .quad .four {
+      overflow: hidden;
       height: 225px;
       background-color: #57140B;
       border-top: 64px solid white;
       margin-bottom: 32px; }
   body .big {
+    overflow: hidden;
     height: 900px;
     margin-top: 17px;
+    background-color: #57140B; }
+  body .inside {
+    height: 412px;
+    background-color: #DA7F7C;
+    border-top: 140px solid #ED462F;
+    border-bottom: 70px solid #ED462F;
+    border-right: 32px solid #ED462F;
+    border-left: 32px solid #ED462F; }
+  body .footer {
+    height: 204px;
     background-color: #57140B; }
