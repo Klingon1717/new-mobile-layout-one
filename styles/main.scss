@@ -1,5 +1,5 @@
 body{
-	position:relative;
+	
 	background-color:white;
 	height:100%;
 	width:100%;
@@ -14,44 +14,24 @@ body{
 		background-color:#ED462F;
 
 	}
-	.quad{
+	.quad {
+		padding: 0 10px;
+		// height:225px;
+		background-color:#fff;
 
-		
-		width:100%;
-		height:225px;
-		background-color:#57140B;
-		
-		
-		.one{
-			
+		div  {
 			width:100%;
 			height:225px;
 			background-color:#57140B;
+			margin-top: 64px;
+			margin-bottom: 32px;
 		}
-		.two{
-			position:relative;
-			width:100%;
-			height:225px;
-			background-color:#57140B;
+	}
 
-		}
-		.three{
-			position:relative;
-			width:100%;
-			height:225px;
-			background-color:#57140B;
-
-		}
-		.four{
-			position:relative;
-			width:100%;
-			height:225px;
-			background-color:#57140B;
-
-		}
-}
-
-	
+	.biggie{
+		background-color:#240402;
+		height:917px;
+	}
 	.inside{
 		height:412px;
 		 background-color:#DA7F7C;
@@ -59,9 +39,14 @@ body{
 		 border-bottom:70px solid #ED462F;
 		 border-right:32px solid #ED462F;
 		 border-left:32px solid #ED462F;
+		 position: relative;
+		 z-index: 500;
 	}
 	.footer{
 		height:204px;
 		background-color:#57140B;
+		 position: relative;
+		 z-index: 1;
+
 	}
 }

@@ -1,5 +1,4 @@
 body {
-  position: relative;
   background-color: white;
   height: 100%;
   width: 100%;
@@ -11,35 +10,28 @@ body {
     height: 385px;
     background-color: #ED462F; }
   body .quad {
-    width: 100%;
-    height: 225px;
-    background-color: #57140B; }
-    body .quad .one {
+    padding: 0 10px;
+    background-color: #fff; }
+    body .quad div {
       width: 100%;
       height: 225px;
-      background-color: #57140B; }
-    body .quad .two {
-      position: relative;
-      width: 100%;
-      height: 225px;
-      background-color: #57140B; }
-    body .quad .three {
-      position: relative;
-      width: 100%;
-      height: 225px;
-      background-color: #57140B; }
-    body .quad .four {
-      position: relative;
-      width: 100%;
-      height: 225px;
-      background-color: #57140B; }
+      background-color: #57140B;
+      margin-top: 64px;
+      margin-bottom: 32px; }
+  body .biggie {
+    background-color: #240402;
+    height: 917px; }
   body .inside {
     height: 412px;
     background-color: #DA7F7C;
     border-top: 140px solid #ED462F;
     border-bottom: 70px solid #ED462F;
     border-right: 32px solid #ED462F;
-    border-left: 32px solid #ED462F; }
+    border-left: 32px solid #ED462F;
+    position: relative;
+    z-index: 500; }
   body .footer {
     height: 204px;
-    background-color: #57140B; }
+    background-color: #57140B;
+    position: relative;
+    z-index: 1; }
