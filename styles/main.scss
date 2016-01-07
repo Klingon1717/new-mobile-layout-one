@@ -16,7 +16,6 @@ body{
 	}
 	.quad {
 		padding: 0 10px;
-		// height:225px;
 		background-color:#fff;
 
 		div  {
@@ -49,4 +48,8 @@ body{
 		 z-index: 1;
 
 	}
+}
+ @media screen and (max-width: 450px) and (min-width: 400px) {
+ }
+ @media screen and (min-width: 600px) and (max-width: 749px) {
 }
